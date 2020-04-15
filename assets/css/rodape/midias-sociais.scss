@@ -1,0 +1,15 @@
+.midiaSocial__link {
+    display: block;
+    padding: 0.75rem;
+
+    &:focus, &:hover {
+        .iconSVG {
+            fill: $corPrincipal;
+        }
+    }
+}
+
+.iconSVG {
+    fill: $corSecundaria;
+    transition: fill .6s;
+}

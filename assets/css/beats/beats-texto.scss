@@ -1,0 +1,7 @@
+.beats__texto {
+	color: $corSecundaria;
+	@include sizeTexto;
+	/*line-height: 1.6;*/
+	margin-bottom: 2.625rem;
+	text-align: center;
+}

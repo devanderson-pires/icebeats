@@ -1,0 +1,15 @@
+.menu__link {
+    color: $corSecundaria;
+    display: block;
+    @include sizeSubtitulo;
+    @extend %letter-spacing;
+    padding: 0.75rem 0;
+    text-transform: uppercase;
+    @extend %transition-color;
+    width: 100%;
+
+    &:focus, &:hover {
+        color: $corPrincipal;
+        text-decoration: none;
+    }
+}

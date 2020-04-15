@@ -1,0 +1,6 @@
+.beats__subtitulo {
+	color: $corSecundaria;
+	@include sizeSubtitulo;
+	margin-bottom: 1.125rem;
+	text-align: center;
+}

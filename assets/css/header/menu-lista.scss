@@ -1,0 +1,11 @@
+.menu__lista {
+    margin-top: 1.25rem;
+
+    @media(min-width: 768px) {
+        margin-top: 0;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

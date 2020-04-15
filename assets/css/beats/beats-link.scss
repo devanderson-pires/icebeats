@@ -1,0 +1,9 @@
+.beats__link {
+    color: inherit;
+    @extend %transition-color;
+
+    &:focus, &:hover {
+        color: $corPrincipal;
+        text-decoration: none;
+    }
+}

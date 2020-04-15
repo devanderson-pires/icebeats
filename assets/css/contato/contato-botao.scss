@@ -1,0 +1,35 @@
+.contato__botao {
+    background: none;
+    border: 2px solid $corPrincipal;
+    border-radius: 3px;
+    color: $corPrincipal;
+    font-family: 'Source Sans Pro', sans-serif;
+    @include sizeTexto;
+    @extend %letter-spacing;
+    margin-top: 1.125rem;
+    padding: 0.375rem 0;
+    position: relative;
+    text-transform: uppercase;
+    @extend %transition-color;
+    width: 100%;
+
+    &::after {
+        background-color: $corPrincipal;
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: width .6s;
+        width: 0;
+        z-index: -1;
+    }
+
+    &:focus, &:hover {
+        color: $corBg;
+
+        &::after {
+            width: 100%;
+        }
+    }
+}

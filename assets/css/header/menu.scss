@@ -1,0 +1,10 @@
+#menu {
+    @extend %transition-menu-hamb;
+}
+
+/*  media query */
+@media(min-width: 768px) {
+    .collapse:not(.show) {
+        display: unset;
+    }
+}

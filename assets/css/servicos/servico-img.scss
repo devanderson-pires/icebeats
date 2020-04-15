@@ -1,0 +1,12 @@
+.servicos__img {
+    margin-bottom: 1.125rem;
+
+    @media(min-width: 768px) {
+        filter: grayscale(100%);
+        transition: filter .6s;
+
+        &:hover {
+            filter: grayscale(0);
+        }
+    }
+}

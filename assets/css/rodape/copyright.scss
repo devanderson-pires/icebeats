@@ -1,0 +1,16 @@
+.copyright {
+    color: $corSecundaria;
+    @include sizeTexto;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.copyright__textLink {
+    color: inherit;
+    @extend %transition-color;
+
+    &:focus, &:hover {
+        color: $corPrincipal;
+        text-decoration: none;
+    }
+}

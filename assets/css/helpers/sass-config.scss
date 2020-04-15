@@ -1,0 +1,25 @@
+$corPrincipal: darken(#00aaff, 0); //lighten
+$corSecundaria: #fff;
+$corBg: #000;
+
+$sizeTitulo: 1.875rem;
+
+@mixin sizeTexto($size: 1rem) {
+    font-size: $size;
+}
+
+@mixin sizeSubtitulo($size: 1.125rem) {
+    font-size: $size;
+}
+
+%letter-spacing {
+    letter-spacing: 2px;
+}
+
+%transition-menu-hamb {
+    transition: .2s ease-in-out;
+}
+
+%transition-color {
+    transition: color .6s;
+}

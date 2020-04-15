@@ -1,0 +1,57 @@
+.hamb {
+    cursor: pointer;
+    height: 1.375rem;
+    position: relative;
+    transform: rotate(0deg);
+    @extend %transition-menu-hamb;
+    width: 1.375rem;
+
+    @media(min-width: 768px) {
+        display: none;
+    }
+}
+
+.hamb__line {
+    background-color: $corSecundaria;
+    display: block;
+    height: 2px;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    @extend %transition-menu-hamb;
+    width: 100%;
+
+    &:nth-child(1) {
+        top: 0;
+    }
+
+    &:nth-child(2), &:nth-child(3) {
+        top: 7px;
+    }
+
+    &:nth-child(4) {
+        top: 14px;
+    }
+}
+
+.show .hamb__line {
+    &:nth-child(1) {
+        top: 18px;
+        width: 0;
+        left: 50%;
+    }
+
+    &:nth-child(2) {
+        transform: rotate(45deg);
+    }
+
+    &:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+
+    &:nth-child(4) {
+        top: 18px;
+        width: 0;
+        left: 50%;
+    }
+}

@@ -1,0 +1,30 @@
+@import 'helpers/sass-config';
+
+@import 'padrao';
+
+@import 'header/logo';
+@import 'header/menu-hamb';
+@import 'header/menu-item';
+@import 'header/menu-link';
+@import 'header/menu-lista';
+@import 'header/menu';
+@import 'header/navMenu';
+
+@import 'servicos/servico-descricao';
+@import 'servicos/servico-img';
+@import 'servicos/servico-item';
+@import 'servicos/servico-nome';
+
+@import 'beats/beats-catalogo';
+@import 'beats/beats-link';
+@import 'beats/beats-subtitulo';
+@import 'beats/beats-texto';
+
+@import 'contato/contato-botao';
+@import 'contato/contato-campos';
+@import 'contato/contato-form';
+@import 'contato/contato-label';
+
+@import 'rodape/copyright';
+@import 'rodape/midias-sociais';
+@import 'rodape/rodape';

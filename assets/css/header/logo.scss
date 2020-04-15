@@ -1,0 +1,24 @@
+.logo {
+    color: $corSecundaria;
+    font-weight: 300;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+
+    &:focus,
+    &:hover {
+        color: $corSecundaria;
+        text-decoration: none;
+    }
+
+    &:focus,
+    &:hover {
+        .logo--ice {
+            color: $corPrincipal;
+        }
+    }
+}
+
+.logo--ice {
+    font-weight: 700;
+    @extend %transition-color;
+}

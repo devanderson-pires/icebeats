@@ -1,0 +1,5 @@
+.contato__label {
+    color: $corSecundaria;
+    @include sizeTexto;
+    margin-bottom: 0.375rem;
+}

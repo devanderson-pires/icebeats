@@ -1,0 +1,36 @@
+/* Google Fonts */@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap');
+
+body {
+    background-color: $corBg;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+figure, p, h1 {
+	margin: 0;
+}
+
+/* Bootstrap */.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+
+	@media(min-width: 768px) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+/* títulos */.tituloPadrao {
+	color: $corPrincipal;
+    font-size: $sizeTitulo;
+	font-weight: 700;
+	@extend %letter-spacing;
+	margin: 3.75rem 0 1.125rem;
+	text-align: center;
+	text-transform: uppercase;
+}

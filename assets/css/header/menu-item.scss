@@ -1,0 +1,10 @@
+/*  media query */
+@media(min-width: 768px) {
+    .menu__item {
+        margin-right: 1.875rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
